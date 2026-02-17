@@ -33,6 +33,10 @@ No primary source indicates explicit retroactive authorization.
 
 ---
 
+**Temporal merging** = valid entities + valid syntax + impossible chronology.
+
+---
+
 ## Temporal Merging Example
 
 ```text
