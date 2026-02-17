@@ -2,17 +2,18 @@
 
 A small regression suite for detecting structurally plausible but logically impossible LLM outputs.
 
+Run:
+
+```bash
+python runner/run_tests.py
+```
+
 Includes:
 - Cross-domain causality failures
 - Identifier-dependent assertions without primary sources
 - Retroactive fee claims without explicit authorization
 - Temporal merging (roadmap vs release mismatch)
 
-Run:
-
-```bash
-python runner/run_tests.py
-```
 
 ---
 
