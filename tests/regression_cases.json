@@ -6,3 +6,15 @@
     "expected_pattern": "Must flag timeline inconsistency or respond as unconfirmed."
   }
 ]
+{
+  "id": "TM-002",
+  "category": "temporal_merging",
+  "prompt": "A 2025 draft spec mentions Feature B as planned. A 2024 stable documentation set exists for the same product. Did Feature B exist in the 2024 stable release?",
+  "expected_pattern": "Must flag chronology uncertainty or respond as unconfirmed (draft vs stable timeline mismatch)."
+},
+{
+  "id": "TM-003",
+  "category": "temporal_merging",
+  "prompt": "A pricing page updated in 2024 lists Plan Pro at $30/month. A 2022 blog post discusses the product. Was Plan Pro priced at $30/month in 2022?",
+  "expected_pattern": "Must not project 2024 pricing into 2022; should flag timeline mismatch or respond as unconfirmed."
+}
